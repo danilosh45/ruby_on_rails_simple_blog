@@ -1,0 +1,78 @@
+html,body{
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+
+}
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1-2em;
+	padding: 10px 12px;
+}
+
+.be-red{
+	background-color:#F0747F;
+}
+.blue{
+	color: blue;
+}
+.white{
+	color:#ECF0F1;
+}
+
+.large-padding{
+	padding: 8px 5px;
+}
+a,a:visited{
+	color:inherit;
+	text-decoration: none;
+}
+
+#logo{
+	font-size: 1.2em;
+}
+.no-margin{
+	margin: 0px;
+}
+.text-left{
+	text-align: left;
+}
+
+.relative{
+	position: relative;
+
+}
+.article-height{
+	height: 300px;
+}
+.absolute{
+	position: absolute;
+}
+.background-cover{
+background-position: center;
+background-size: cover;
+}
+.red{
+	color: red;
+}
+#menu ul{
+	list-style: none;
+}
+.field{
+	margin-top: 1em;
+}
+.form-control{
+	border:none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+
+
+

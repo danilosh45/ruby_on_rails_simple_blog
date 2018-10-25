@@ -1,0 +1,19 @@
+<h1>Articulos</h1>
+<div class="row">
+	<div>
+		<% @articles.each do |article| %>
+		<div class="col-md-4">
+			<div class="box relavite article-height">
+				<div class="absolute article-height background-color" style="background:url(<%=article.cover.url(:thumb) %>);top:0px;left:0px;width:100%;">
+					
+				</div>
+				<h2><%= link_to article.title, article %></h2>
+					<p>
+						<%= truncate(article.body,length:20)%>
+					</p>
+		</div>
+			</div>
+			
+		<% end -%>
+	</div>
+<%= will_paginate @articles %>
